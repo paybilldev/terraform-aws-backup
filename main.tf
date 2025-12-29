@@ -54,7 +54,7 @@ resource "aws_backup_plan" "this" {
 
 # Create backup vault
 module "backup_vault" {
-  source = "../backup-vault"
+  source = "./backup-vault"
 
   count = var.backup_vault_data == null ? 0 : 1
 

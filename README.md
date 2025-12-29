@@ -37,7 +37,7 @@ This Terraform module automates the creation and management of **AWS Backup Plan
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_backup_vault"></a> [backup\_vault](#module\_backup\_vault) | ../backup-vault | n/a |
+| <a name="module_backup_vault"></a> [backup\_vault](#module\_backup\_vault) | ./backup-vault | n/a |
 
 ## Resources
 
